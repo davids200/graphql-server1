@@ -1,0 +1,42 @@
+{
+  "name": "graphql-server1",
+  "version": "1.0.0",
+  "description": "Graphql Node.js Sequelize tutorial",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davids200/graphql-server1.git"
+  },
+  "author": "David S <ictgiants@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "apollo-datasource": "^0.7.0",
+    "apollo-server-express": "^2.13.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-middleware": "^6.1.33",
+    "graphql-resolvers": "^0.4.2",
+    "graphql-shield": "^7.6.5",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.1.0",
+    "node-localstorage": "^2.2.1",
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.7",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  } 
+}
