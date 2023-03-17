@@ -1606,7 +1606,7 @@ dicer@0.3.0:
   dependencies:
     streamsearch "0.1.2"
 
-dotenv@^8.0.0:
+dotenv@^8.6.0:
   version "8.6.0"
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-8.6.0.tgz"
   integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==

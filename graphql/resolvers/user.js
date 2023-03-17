@@ -7,6 +7,7 @@ const {GraphQLError} = require('graphql');
 module.exports = {
 Mutation: {
 async register(root, args, context) {
+  console.log("in signupppppppp",args)
 //const { name, email, password } = args.input;
 const user=await User.create(args.input); 
  
